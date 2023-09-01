@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(241, 252, 180);
+}
+table{
+    text-align: center;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.center-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin-top: 20px;
+}
+
+.social-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
